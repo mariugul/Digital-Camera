@@ -1,10 +1,23 @@
 [aimspice]
 [description]
-102
+344
 *PixelCircuit 
 
 .include p18_cmos_models.inc
 .include p18_model_card.inc
 .include PhotoDiode.inc
+
+VDD VDD VSS 1.8
+*PhotDiode 
+
+*name drain gate source bulk type L W
+VM1 	M1  VSS 0.5		      	! Voltage source M1
+MN1 N1  M1  N2  VSS NMOS L1 W1    	! Declare M1
+MN2 N2  M2  VSS VSS NMOS L2 W2    	! Declare M2
+MN3 VSS M3  N3 
+
+
+
+
 
 [end]
