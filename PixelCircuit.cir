@@ -1,0 +1,10 @@
+[aimspice]
+[description]
+102
+*PixelCircuit 
+
+.include p18_cmos_models.inc
+.include p18_model_card.inc
+.include PhotoDiode.inc
+
+[end]
