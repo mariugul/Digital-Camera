@@ -7,13 +7,13 @@
                  *                                           *
                  *********************************************
 
-	Date: Wed Oct  2 18:00:03 2019
+	Date: Thu Oct  3 08:40:51 2019
 	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Høst 2019\Design of integrated circuits\Digital-Camera\PixelCircuit.cir
 	Analysis: DC Operating Point
 
 **************************  Circuit Description  **************************
 
-     1:  *PixelCircuit 
+     1:  Digital Camera - Analog Pixel Circuit 
      2:  
      3:  *include p18_cmos_models.inc
      4:  .param proc_delta = 0.95
@@ -192,19 +192,31 @@
    177:  .ends 
    178:  *end of: PhotoDiode.inc
    179:  
-   180:  VDD VDD VSS 1.8
-   181:  *PhotDiode 
-   182:  
-   183:  VM1 M1 VSS 0.5		      	! Voltage source M1
-   184:  MN1 N1 M1 N2  VSS NMOS L1 W1    	! Declare M1
-   185:  MN2 N2 M2 VSS VSS NMOS L2 W2    	! Declare M2
+   180:  *DECLARE VOLTAGE SOURCES
+   181:  VDD VDD VSS 1.8	! Voltage source main
+   182:  VM1 M1  VSS 0.5	! Voltage source M1 
+   183:  
+   184:  *CAPACITOR
+   185:  CS N2 VSS 3pf 
    186:  
-   187:  
-   188:  
-   189:  
-   190:  * <name> <drain> <gate> <source> <bulk>  <n/pmos> <L> <W>
-   191:  
-   192:  .op
+   187:  * DECLARE MOSFETS
+   188:  *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
+   189:    MN1    N1      M1     N2       VSS    NMOS   L1   W1    ! Declare M1
+   190:    MN2    N2      M2     VSS      VSS    NMOS   L2   W2    ! Declare M2
+   191:    MP3    VSS     N2     N3 	   VDD    PMOS   L3   W3    ! Declase M3
+   192:    MP4    N3      NRE    OUT      VDD    PMOS   L4   W4    ! Declase M4
+   193:  
+   194:  .param L1 = 1080U
+   195:  .param L2 = 1080U
+   196:  .param L3 = 1080U
+   197:  .param L4 = 1080U
+   198:  
+   199:  .param W1 = 1080U
+   200:  .param W2 = 1080U
+   201:  .param W3 = 1080U
+   202:  .param W4 = 1080U
+   203:  
+   204:  .op
 
 ***************************  Model Parameters  ****************************
 
@@ -219,15 +231,23 @@
 
 ***************************  Kernel Messages  *****************************
 
-Circuit: *PixelCircuit 
+Circuit: Digital Camera - Analog Pixel Circuit 
 
 Warning: premature EOF
 Warning: parameter xl not supported; value ignored
 Warning: parameter xw not supported; value ignored
-Error on line 33 : mn1 n1 m1 n2  vss nmos l1 w1    	
+Warning: parameter xl not supported; value ignored
+Warning: parameter xw not supported; value ignored
+Error on line 38 :   mn1    n1      m1     n2       vss    nmos   l1   w1    
  unknown parameter (l1) 
 
-Error on line 34 : mn2 n2 m2 vss vss nmos l2 w2    	
+Error on line 39 :   mn2    n2      m2     vss      vss    nmos   l2   w2    
  unknown parameter (l2) 
+
+Error on line 40 :   mp3    vss     n2     n3 	   vdd    pmos   l3   w3    
+ unknown parameter (l3) 
+
+Error on line 41 :   mp4    n3      nre    out      vdd    pmos   l4   w4    
+ unknown parameter (l4) 
 
 
