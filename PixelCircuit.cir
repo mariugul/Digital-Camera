@@ -1,6 +1,6 @@
 [aimspice]
 [description]
-781
+567
 Digital Camera - Analog Pixel Circuit 
 
 .include p18_cmos_models.inc
@@ -8,27 +8,21 @@ Digital Camera - Analog Pixel Circuit
 .include PhotoDiode.inc
 
 *DECLARE VOLTAGE SOURCES
-VDD VDD VSS 1.8	! Voltage source main
-VM1 M1  VSS 0.5	! Voltage source M1 
+VDD Vdd Vss 1.8	
+VM1 M1  Vss 0.5	 
+VM2 M2  Vss 0.5
+VM4 M4  Vss 0.5
 
 *CAPACITOR
 CS N2 VSS 3pf 
 
 * DECLARE MOSFETS
 *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
-  MN1    N1      M1     N2       VSS    NMOS   L1   W1    ! Declare M1
-  MN2    N2      M2     VSS      VSS    NMOS   L2   W2    ! Declare M2
-  MP3    VSS     N2     N3 	   VDD    PMOS   L3   W3    ! Declase M3
-  MP4    N3      NRE    OUT      VDD    PMOS   L4   W4    ! Declase M4
+MN1 N1 M1 N2 Vss NMOS L=0.36U W=1080U    ! Declare M1
+MN2 N2 M2 Vss Vss NMOS L=0.36U W=1080U       ! Declare M2
+MP3 Vss N2 N3 Vdd PMOS L=0.36U W=1080U       ! Declase M3
+MP4 N3 M4 OUT Vdd PMOS L=0.36U W=1080U      ! Declase M4
 
-.param L1 = 1080U
-.param L2 = 1080U
-.param L3 = 1080U
-.param L4 = 1080U
 
-.param W1 = 1080U
-.param W2 = 1080U.
-.param W3 = 1080U
-.param W4 = 1080U
 
 [end]
