@@ -1,4 +1,3 @@
-Circuit: [aimspice]
 
                  *********************************************
                  *                                           *
@@ -8,8 +7,8 @@ Circuit: [aimspice]
                  *                                           *
                  *********************************************
 
-	Date: Thu Oct  3 08:40:51 2019
-	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Hï¿½st 2019\Design of integrated circuits\Digital-Camera\PixelCircuit.cir
+	Date: Thu Oct  3 09:14:36 2019
+	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Høst 2019\Design of integrated circuits\Digital-Camera\PixelCircuit.cir
 	Analysis: DC Operating Point
 
 **************************  Circuit Description  **************************
@@ -194,41 +193,168 @@ Circuit: [aimspice]
    178:  *end of: PhotoDiode.inc
    179:  
    180:  *DECLARE VOLTAGE SOURCES
-   181:  VDD VDD VSS 1.8	! Voltage source main
-   182:  VM1 M1  VSS 0.5	! Voltage source M1 
-   183:  
-   184:  *CAPACITOR
-   185:  CS N2 VSS 3pf 
-   186:  
-   187:  * DECLARE MOSFETS
-   188:  *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
-   189:    MN1    N1      M1     N2       VSS    NMOS   L1   W1    ! Declare M1
-   190:    MN2    N2      M2     VSS      VSS    NMOS   L2   W2    ! Declare M2
-   191:    MP3    VSS     N2     N3 	   VDD    PMOS   L3   W3    ! Declase M3
-   192:    MP4    N3      NRE    OUT      VDD    PMOS   L4   W4    ! Declase M4
-   193:  
-   194:  .param L1 = 1080U
-   195:  .param L2 = 1080U
-   196:  .param L3 = 1080U
-   197:  .param L4 = 1080U
-   198:  
-   199:  .param W1 = 1080U
-   200:  .param W2 = 1080U
-   201:  .param W3 = 1080U
-   202:  .param W4 = 1080U
-   203:  
-   204:  .op
+   181:  VDD Vdd Vss 1.8	
+   182:  VM1 M1  Vss 0.5	 
+   183:  VM2 M2  Vss 0.5
+   184:  VM4 M4  Vss 0.5
+   185:  
+   186:  *CAPACITOR
+   187:  CS N2 VSS 3pf 
+   188:  
+   189:  * DECLARE MOSFETS
+   190:  *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
+   191:  MN1 N1 M1 N2  Vss NMOS L=0.36u W=1080u    		! Declare M1
+   192:  MN2 N2 M2 Vss Vss NMOS L=0.36u W=1080u       	! Declare M2
+   193:  MP3 Vss N2 N3 Vdd PMOS L=0.36u W=1080u       	! Declase M3
+   194:  MP4 N3 M4 OUT Vdd PMOS L=0.36u W=1080u      	! Declase M4
+   195:  
+   196:  
+   197:  
+   198:  .op
 
 ***************************  Model Parameters  ****************************
 
 
 ***************  Device Parameters (Only for .op analysis)  ***************
 
+Device mp4:
+	Vgs     (gate-source voltage)        [V] : -0.187483
+	Vgd     (gate-drain voltage)         [V] : 0.172963
+	Vds     (drain-source voltage)       [V] : -0.360446
+	Vbs     (bulk-source voltage)        [V] : 1.11252
+	Vbd     (bulk-drain voltage)         [V] : 1.47296
+	Id      (drain current)              [A] : -3.44742e-12
+	Is      (source current)             [A] : 3.08697e-12
+	Ibd     (bulk-drain current)         [A] : -1.47296e-12
+	Ibs     (bulk-source current)        [A] : -1.11252e-12
+	Vt      (threshold voltage)          [V] : -0.850069
+	Vgt     (gate overdrive voltage)     [V] : 0.662587
+	Vgsteff (effective vgt)              [V] : -5.21847e-10
+	Gm      (transconductance)           [S] : 5.7046e-11
+	Gmb     (bulk bias transconductance) [S] : 1.51777e-11
+	Ueff    (mobility)             [cm^2/Vs] : 61.6056
+	Gds     (channel conductance)        [S] : 8.02291e-13
+	Rds     (output resistance)        [Ohm] : 1.24643e+12
+	Vdsat   (drain saturation voltage)   [V] : -0.0415455
+	IC      (inversion coefficient)       [] : 1.30221e-08
+	Cgs     (gate-source capacitance)    [F] : 7.5914e-13
+	Csg     (source-gate capacitance)    [F] : 7.398e-13
+	Cgd     (gate-drain capacitance)     [F] : 7.40601e-13
+	Cdg     (drain-gate capacitance)     [F] : 7.4304e-13
+	Cds     (drain-source capacitance)   [F] : 5.71174e-21
+	Cgg     (gate-gate capacitance)      [F] : 5.20795e-13
+	Cdd     (drain-drain capacitance)    [F] : 5.20795e-13
+	Cgb     (gate-bulk capacitance)      [F] : 5.20795e-13
+	Cbs     (bulk-source capacitance)    [F] : 3.35767e-13
+	Cbd     (bulk-drain capacitance)     [F] : 3.1575e-13
+
+Device mp3:
+	Vgs     (gate-source voltage)        [V] : -0.327007
+	Vgd     (gate-drain voltage)         [V] : -5.91651e-11
+	Vds     (drain-source voltage)       [V] : -0.327007
+	Vbs     (bulk-source voltage)        [V] : 1.47299
+	Vbd     (bulk-drain voltage)         [V] : 1.8
+	Id      (drain current)              [A] : -9.74861e-12
+	Is      (source current)             [A] : 9.4216e-12
+	Ibd     (bulk-drain current)         [A] : -1.81e-12
+	Ibs     (bulk-source current)        [A] : -1.48299e-12
+	Vt      (threshold voltage)          [V] : -0.929856
+	Vgt     (gate overdrive voltage)     [V] : 0.602849
+	Vgsteff (effective vgt)              [V] : -2.19603e-09
+	Gm      (transconductance)           [S] : 2.33886e-10
+	Gmb     (bulk bias transconductance) [S] : 5.66476e-11
+	Ueff    (mobility)             [cm^2/Vs] : 58.9373
+	Gds     (channel conductance)        [S] : 3.3202e-12
+	Rds     (output resistance)        [Ohm] : 3.01187e+11
+	Vdsat   (drain saturation voltage)   [V] : -0.0420088
+	IC      (inversion coefficient)       [] : 3.92532e-08
+	Cgs     (gate-source capacitance)    [F] : 7.58128e-13
+	Csg     (source-gate capacitance)    [F] : 7.398e-13
+	Cgd     (gate-drain capacitance)     [F] : 7.40604e-13
+	Cdg     (drain-gate capacitance)     [F] : 7.4304e-13
+	Cds     (drain-source capacitance)   [F] : 2.22926e-20
+	Cgg     (gate-gate capacitance)      [F] : 4.69437e-13
+	Cdd     (drain-drain capacitance)    [F] : 4.69437e-13
+	Cgb     (gate-bulk capacitance)      [F] : 4.69437e-13
+	Cbs     (bulk-source capacitance)    [F] : 0
+	Cbd     (bulk-drain capacitance)     [F] : 0
+
+Device mn2:
+	Vgs     (gate-source voltage)        [V] : 0.5
+	Vgd     (gate-drain voltage)         [V] : 0.5
+	Vds     (drain-source voltage)       [V] : 5.44925e-11
+	Vbs     (bulk-source voltage)        [V] : -2.36627e-12
+	Vbd     (bulk-drain voltage)         [V] : -5.68588e-11
+	Id      (drain current)              [A] : 2.03136e-13
+	Is      (source current)             [A] : -2.03136e-13
+	Ibd     (bulk-drain current)         [A] : -5.68588e-23
+	Ibs     (bulk-source current)        [A] : -2.36627e-24
+	Vt      (threshold voltage)          [V] : 0.562806
+	Vgt     (gate overdrive voltage)     [V] : -0.0628057
+	Vgsteff (effective vgt)              [V] : 0.00614715
+	Gm      (transconductance)           [S] : 4.49537e-12
+	Gmb     (bulk bias transconductance) [S] : 1.30764e-12
+	Ueff    (mobility)             [cm^2/Vs] : 295.719
+	Gds     (channel conductance)        [S] : 0.00372779
+	Rds     (output resistance)        [Ohm] : 268.256
+	Vdsat   (drain saturation voltage)   [V] : 0.0403945
+	IC      (inversion coefficient)       [] : 1.49118e-10
+	Cgs     (gate-source capacitance)    [F] : 1.01444e-12
+	Csg     (source-gate capacitance)    [F] : 7.5923e-13
+	Cgd     (gate-drain capacitance)     [F] : 9.36599e-13
+	Cdg     (drain-gate capacitance)     [F] : 9.80498e-13
+	Cds     (drain-source capacitance)   [F] : 1.01213e-13
+	Cgg     (gate-gate capacitance)      [F] : 1.07496e-12
+	Cdd     (drain-drain capacitance)    [F] : 1.07496e-12
+	Cgb     (gate-bulk capacitance)      [F] : 6.21628e-13
+	Cbs     (bulk-source capacitance)    [F] : 3.55315e-13
+	Cbd     (bulk-drain capacitance)     [F] : 3.55315e-13
+
+Device mn1:
+	Vgs     (gate-source voltage)        [V] : 0.5
+	Vgd     (gate-drain voltage)         [V] : 0.5
+	Vds     (drain-source voltage)       [V] : -1.81076e-11
+	Vbs     (bulk-source voltage)        [V] : -5.6756e-11
+	Vbd     (bulk-drain voltage)         [V] : -3.86484e-11
+	Id      (drain current)              [A] : -6.75012e-14
+	Is      (source current)             [A] : 6.75012e-14
+	Ibd     (bulk-drain current)         [A] : -5.35912e-23
+	Ibs     (bulk-source current)        [A] : -7.86998e-23
+	Vt      (threshold voltage)          [V] : 0.562806
+	Vgt     (gate overdrive voltage)     [V] : -0.0628057
+	Vgsteff (effective vgt)              [V] : 0.00614715
+	Gm      (transconductance)           [S] : 1.49379e-12
+	Gmb     (bulk bias transconductance) [S] : 4.34523e-13
+	Ueff    (mobility)             [cm^2/Vs] : 295.719
+	Gds     (channel conductance)        [S] : 0.00372779
+	Rds     (output resistance)        [Ohm] : 268.256
+	Vdsat   (drain saturation voltage)   [V] : 0.0403945
+	IC      (inversion coefficient)       [] : -4.95512e-11
+	Cgs     (gate-source capacitance)    [F] : 1.01444e-12
+	Csg     (source-gate capacitance)    [F] : 7.5923e-13
+	Cgd     (gate-drain capacitance)     [F] : 9.366e-13
+	Cdg     (drain-gate capacitance)     [F] : 9.80498e-13
+	Cds     (drain-source capacitance)   [F] : 1.01213e-13
+	Cgg     (gate-gate capacitance)      [F] : 1.07496e-12
+	Cdd     (drain-drain capacitance)    [F] : 1.07496e-12
+	Cgb     (gate-bulk capacitance)      [F] : 6.21628e-13
+	Cbs     (bulk-source capacitance)    [F] : 0
+	Cbd     (bulk-drain capacitance)     [F] : 0
+
 
 
 **************  Options (Only those different from default)  **************
 
 
+
+*************************  Simulation Statistics  *************************
+
+	Total number of iterations...........: 36
+	Total analysis time (sec)............: 0
+	Time spent in device loading (sec)...: 0
+	Time spent in L-U decomposition (sec): 0
+	Time spent in matrix reordering (sec): 0
+	Time spent in matrix solving (sec)...: 0
 
 ***************************  Kernel Messages  *****************************
 
@@ -239,16 +365,27 @@ Warning: parameter xl not supported; value ignored
 Warning: parameter xw not supported; value ignored
 Warning: parameter xl not supported; value ignored
 Warning: parameter xw not supported; value ignored
-Error on line 38 :   mn1    n1      m1     n2       vss    nmos   l1   w1    
- unknown parameter (l1) 
-
-Error on line 39 :   mn2    n2      m2     vss      vss    nmos   l2   w2    
- unknown parameter (l2) 
-
-Error on line 40 :   mp3    vss     n2     n3 	   vdd    pmos   l3   w3    
- unknown parameter (l3) 
-
-Error on line 41 :   mp4    n3      nre    out      vdd    pmos   l4   w4    
- unknown parameter (l4) 
-
+Warning: Pd = 0 is less than W for mp4 in model pmos.
+Warning: Ps = 0 is less than W for mp4 in model pmos.
+Warning: Pd = 0 is less than W for mn2 in model nmos.
+Warning: Ps = 0 is less than W for mn2 in model nmos.
+Warning: Node n1 has less than two connections
+Warning: Node out has less than two connections
+Warning: Node vdd has no DC path to ground
+Warning: Node vss has no DC path to ground
+Warning: Node m1 has no DC path to ground
+Warning: Node m2 has no DC path to ground
+Warning: Node m4 has no DC path to ground
+Warning: Node n2 has no DC path to ground
+Warning: Node n1 has no DC path to ground
+Warning: Node n3 has no DC path to ground
+Warning: Node out has no DC path to ground
+Warning: Node mp4#drain has no DC path to ground
+Warning: Node mp4#source has no DC path to ground
+Warning: Node mp3#drain has no DC path to ground
+Warning: Node mp3#source has no DC path to ground
+Warning: Node mn2#drain has no DC path to ground
+Warning: Node mn2#source has no DC path to ground
+Warning: Node mn1#drain has no DC path to ground
+Warning: Node mn1#source has no DC path to ground
 

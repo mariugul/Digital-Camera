@@ -1,6 +1,6 @@
 [aimspice]
 [description]
-567
+572
 Digital Camera - Analog Pixel Circuit 
 
 .include p18_cmos_models.inc
@@ -18,10 +18,10 @@ CS N2 VSS 3pf
 
 * DECLARE MOSFETS
 *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
-MN1 N1 M1 N2 Vss NMOS L=0.36U W=1080U    ! Declare M1
-MN2 N2 M2 Vss Vss NMOS L=0.36U W=1080U       ! Declare M2
-MP3 Vss N2 N3 Vdd PMOS L=0.36U W=1080U       ! Declase M3
-MP4 N3 M4 OUT Vdd PMOS L=0.36U W=1080U      ! Declase M4
+MN1 N1 M1 N2  Vss NMOS L=0.36u W=1080u    	! Declare M1
+MN2 N2 M2 Vss Vss NMOS L=0.36u W=1080u       	! Declare M2
+MP3 Vss N2 N3 Vdd PMOS L=0.36u W=1080u       	! Declase M3
+MP4 N3 M4 OUT Vdd PMOS L=0.36u W=1080u      	! Declase M4
 
 
 
