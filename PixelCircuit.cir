@@ -1,28 +1,65 @@
 [aimspice]
 [description]
-572
+1410
 Digital Camera - Analog Pixel Circuit 
 
 .include p18_cmos_models.inc
 .include p18_model_card.inc
 .include PhotoDiode.inc
+.include example_testbench.cir
 
-*DECLARE VOLTAGE SOURCES
-VDD Vdd Vss 1.8	
-VM1 M1  Vss 0.5	 
-VM2 M2  Vss 0.5
-VM4 M4  Vss 0.5
 
-*CAPACITOR
-CS N2 VSS 3pf 
 
-* DECLARE MOSFETS
+
+* PIXEL 1.1
+MN111 N111 EXPOSE N112  0   NMOS L=0.36u W=1080u    	
+MN112 N112 ERASE  0   0   NMOS L=0.36u W=1080u     
+MP113 0  N112     N113  1 PMOS L=0.36u W=1080u     
+MP114 N113 NRE_R1 OUT1 1 PMOS L=0.36u W=1080u     	
+CS11 N112 0 3pf 
+
+* PIXEL 1.2
+MN121 N121 EXPOSE N122  0   NMOS L=0.36u W=1080u    
+MN122 N122 ERASE  0   0   NMOS L=0.36u W=1080u     
+MP123 0  N122     N123  1 PMOS L=0.36u W=1080u      
+MP124 N123 NRE_R1 OUT2 1 PMOS L=0.36u W=1080u     	
+CS12 N122 0 3pf 
+
+* PIXEL 2.1
+MN211 N211 EXPOSE N212   0   NMOS L=0.36u W=1080u    
+MN212 N212 ERASE  0    0   NMOS L=0.36u W=1080u      
+MP213 0  N212     N213   1 PMOS L=0.36u W=1080u     
+MP214 N213 NRE_R2 OUT1 1 PMOS L=0.36u W=1080u     	
+CS21 N212 0 3pf 
+
+* PIXEL 2.2
+MN221 N221 EXPOSE N222   0   NMOS L=0.36u W=1080u    
+MN222 N222 ERASE  0    0   NMOS L=0.36u W=1080u      
+MP223 0  N222     N223   1 PMOS L=0.36u W=1080u     
+MP224 N223 NRE_R2 OUT2 1 PMOS L=0.36u W=1080u     	
+CS22 N222 0 3pf 
+
 *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
-MN1 N1 M1 N2  Vss NMOS L=0.36u W=1080u    	! Declare M1
-MN2 N2 M2 Vss Vss NMOS L=0.36u W=1080u       	! Declare M2
-MP3 Vss N2 N3 Vdd PMOS L=0.36u W=1080u       	! Declase M3
-MP4 N3 M4 OUT Vdd PMOS L=0.36u W=1080u      	! Declase M4
 
 
+* MC1 *
+MC1 OUT1 OUT1 1 1 PMOS L=0.36u W=1080u    	! Declare M1
 
+* CC1 *
+CC1 OUT1 0 3pf 
+
+
+* MC2 *
+MC2 OUT2 OUT2 1 1 PMOS L=0.36u W=1080u    	! Declare M1
+
+* CC2 *
+CC2 OUT2 0 3pf 
+[tran]
+0.001
+0.06
+X
+X
+0
+[ana]
+4 0
 [end]
