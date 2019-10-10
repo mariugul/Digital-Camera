@@ -1,0 +1,61 @@
+
+                 *********************************************
+                 *                                           *
+                 *             A I M - S p i c e             *
+                 *                                           *
+                 *         Professional Version 2019.100           *
+                 *                                           *
+                 *********************************************
+
+	Date: Thu Oct 10 10:02:10 2019
+	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Høst 2019\Design of integrated circuits\Digital-Camera\design testbenches\testbench_design_mosfef1.cir
+	Analysis: DC Temperature Sweep
+
+**************************  Circuit Description  **************************
+
+     1:  Testbench for designing the Mosfet 1 and also the capacitor CS
+     2:  
+     3:  **** INCLUDES ****
+     4:  
+     5:  **** DEFINE CIRCUIT ****
+     6:  VDD 1 0 dc 1.8
+     7:  PD 1 N1 PhotoDiode Ipd=750p		! Photo diode
+     8:  M1 N1 EXPOSE N2 0 NMOS L=0.37u W=5.039u ! Mosfet 1 
+     9:  CS 1 0 2pf	 				! Capacitor
+    10:  
+    11:  
+    12:  
+
+***************************  Model Parameters  ****************************
+
+
+***************  Device Parameters (Only for .op analysis)  ***************
+
+
+
+**************************  Analysis Parameters  **************************
+
+
+
+
+**************  Options (Only those different from default)  **************
+
+
+
+***************************  Kernel Messages  *****************************
+
+Circuit: Testbench for designing the Mosfet 1 and also the capacitor CS
+
+Error: could not open include file p18_cmos_models.inc
+Error: could not open include file p18_model_card.inc
+Error: could not open include file PhotoDiode.inc
+Error: could not open include file example_testbench.inc
+Error on line 7 : pd 1 n1 photodiode ipd=750p		
+ unable to find definition of model 750p - default assumed 
+
+Error on line 8 : m1 n1 expose n2 0 nmos l=0.37u w=5.039u 
+ unable to find definition of model w - default assumed 
+
+ error:  no unlabeled parameter permitted on mosfet
+
+

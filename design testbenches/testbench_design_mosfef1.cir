@@ -1,0 +1,15 @@
+Testbench for designing the <Mosfet 1> and also the capacitor <CS>
+
+**** INCLUDES ****
+.include p18_cmos_models.inc		! CMOS models
+.include p18_model_card.inc		! Model card
+.include PhotoDiode.inc			! Photo diode
+.include example_testbench.inc	! Use this for the "expose"
+
+**** DEFINE CIRCUIT ****
+VDD 1 0 dc 1.8
+PD 1 N1 PhotoDiode Ipd=750p		! Photo diode
+M1 N1 EXPOSE N2 0 NMOS L=0.37u W=5.039u ! Mosfet 1 
+CS 1 0 2pf	 				! Capacitor
+
+
