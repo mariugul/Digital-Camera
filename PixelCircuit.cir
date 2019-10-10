@@ -1,7 +1,9 @@
 [aimspice]
 [description]
-1410
+1436
 Digital Camera - Analog Pixel Circuit 
+
+*<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
 
 .include p18_cmos_models.inc
 .include p18_model_card.inc
@@ -9,13 +11,11 @@ Digital Camera - Analog Pixel Circuit
 .include example_testbench.cir
 
 
-
-
 * PIXEL 1.1
-MN111 N111 EXPOSE N112  0   NMOS L=0.36u W=1080u    	
-MN112 N112 ERASE  0   0   NMOS L=0.36u W=1080u     
-MP113 0  N112     N113  1 PMOS L=0.36u W=1080u     
-MP114 N113 NRE_R1 OUT1 1 PMOS L=0.36u W=1080u     	
+MN111 N111 EXPOSE N112  0   NMOS L=0.36u W=1080u    	!Switch 
+MN112 N112 ERASE  0   0   NMOS L=0.36u W=1080u        !Switch
+MP113 0  N112     N113  1 PMOS L=0.36u W=1080u     	!Amplifier
+MP114 N113 NRE_R1 OUT1 1 PMOS L=0.36u W=1080u     	!Switch
 CS11 N112 0 3pf 
 
 * PIXEL 1.2
@@ -39,18 +39,15 @@ MP223 0  N222     N223   1 PMOS L=0.36u W=1080u
 MP224 N223 NRE_R2 OUT2 1 PMOS L=0.36u W=1080u     	
 CS22 N222 0 3pf 
 
-*<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
-
-
 * MC1 *
-MC1 OUT1 OUT1 1 1 PMOS L=0.36u W=1080u    	! Declare M1
+MC1 OUT1 OUT1 1 1 PMOS L=0.36u W=1080u  !Amplifier  	
 
 * CC1 *
 CC1 OUT1 0 3pf 
 
 
 * MC2 *
-MC2 OUT2 OUT2 1 1 PMOS L=0.36u W=1080u    	! Declare M1
+MC2 OUT2 OUT2 1 1 PMOS L=0.36u W=1080u    !Amplifier	
 
 * CC2 *
 CC2 OUT2 0 3pf 
