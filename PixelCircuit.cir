@@ -1,28 +1,36 @@
 [aimspice]
 [description]
-567
-Digital Camera - Analog Pixel Circuit 
+596
+*Pixel Circuit 
+
+*<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
 
 .include p18_cmos_models.inc
-.include p18_model_card.inc
 .include PhotoDiode.inc
 
-*DECLARE VOLTAGE SOURCES
-VDD Vdd Vss 1.8	
-VM1 M1  Vss 0.5	 
-VM2 M2  Vss 0.5
-VM4 M4  Vss 0.5
+.subckt PIXEL VDD VSS EXPOSE ERASE NRE OUT PARAM: Ipd=750p
+	* Photodiode
+	XPD1	VDD	N1	PhotoDiode	Ipd={Ipd}
+	
+	*Expose trigger
+	MN1 N1 EXPOSE N2 VSS NMOS L=LNswitch W=WNswitch   	!Switch 
+	*Erase trigger
+	MN2 N2 ERASE VSS VSS NMOS L=LNswitch W=WNswitch   !Switch
 
-*CAPACITOR
-CS N2 VSS 3pf 
+	*Readout circuit 
+	MP3 VSS  N2 N3 1 PMOS L=LPamp W=WPamp     	!Amplifier
+	MP4 N3 NRE OUT 1 PMOS L=LPswitch W=WPswitch    	!Switch
 
-* DECLARE MOSFETS
-*<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
-MN1 N1 M1 N2 Vss NMOS L=0.36U W=1080U    ! Declare M1
-MN2 N2 M2 Vss Vss NMOS L=0.36U W=1080U       ! Declare M2
-MP3 Vss N2 N3 Vdd PMOS L=0.36U W=1080U       ! Declase M3
-MP4 N3 M4 OUT Vdd PMOS L=0.36U W=1080U      ! Declase M4
+	*Sampling capacitor 
+	CS N2 VSS 2pf  
 
-
-
+.ends PIXEL
+[tran]
+0.001
+0.06
+X
+X
+0
+[ana]
+4 0
 [end]

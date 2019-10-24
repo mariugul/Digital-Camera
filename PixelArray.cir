@@ -1,0 +1,31 @@
+[aimspice]
+[description]
+610
+*Pixel Array 
+.include pixel_circuit.cir
+
+*<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
+
+.subckt PIXELARRAY VDD VSSS EXPOSE ERASE NRE_R1 NRE_R2 OUT1 OUT2
+
+*Pixels
+XP11 VDD VSSS EXPOSE ERASE NRE_R1 OUT1 PIXEL Ipd=Ipd1
+XP12 VDD VSSS EXPOSE ERASE NRE_R1 OUT2 PIXEL Ipd=Ipd2   
+XP13 VDD VSSS EXPOSE ERASE NRE_R2 OUT1 PIXEL Ipd=Ipd3
+XP14 VDD VSSS EXPOSE ERASE NRE_R2 OUT2 PIXEL Ipd=Ipd4
+
+*External transistors and parasitic capacitors 
+MC1 OUT1 OUT1 VDD VDD PMOS L=LPload W=WPload  !Amplifier  	
+CC1 OUT1 0 3pf 
+
+MC2 OUT2 OUT2 VDD VDD PMOS L=LPload W=WPload    !Amplifier	
+CC2 OUT2 0 3pf 
+[tran]
+0.001
+0.06
+X
+X
+0
+[ana]
+4 0
+[end]

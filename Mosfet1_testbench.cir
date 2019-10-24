@@ -1,0 +1,68 @@
+[aimspice]
+[description]
+1672
+* This is a parametrized testbench for pixel circuit 
+
+.include p18_cmos_models.inc
+.include PhotoDiode.inc
+
+.param Ipd_1 	  = 750p 				  ! Photodiode current, range [50 pA, 750 pA]
+.param VDD 		  = 1.8 				  ! Supply voltage
+.param EXPOSURETIME = 2m 				  ! Exposure time, range [2 ms, 30 ms]
+
+.param TRF        = {EXPOSURETIME/100} 		  ! Risetime and falltime of EXPOSURE and ERASE signals
+.param PW         = {EXPOSURETIME} 			  ! Pulsewidth of EXPOSURE and ERASE signals
+.param PERIOD     = {EXPOSURETIME*10} 	        ! Period for testbench sources
+.param FS = 1k;                   			  ! Sampling clock frequency 
+.param CLK_PERIOD = {1/FS} 				  ! Sampling clock period
+.param EXPOSE_DLY = {CLK_PERIOD} 			  ! Delay for EXPOSE signal
+.param NRE_R1_DLY = {2*CLK_PERIOD + EXPOSURETIME} ! Delay for NRE_R1 signal
+.param ERASE_DLY  = {6*CLK_PERIOD + EXPOSURETIME} ! Delay for ERASE signal
+
+
+*TRANSISTORS PARAMETERS - Random values for now
+* NMOS Switches 
+.param LNswitch = 0.36U
+.param WNswitch = 1.080U
+
+* NMOS Switches 
+.param LPswitch = 0.36U
+.param WPswitch = 1.080U
+
+* Amplifiers 
+.param LPamp = 0.36U
+.param WPamp = 1.080U
+
+* Active loads 
+.param LPload = 0.36U
+.param WPload = 1.080U
+
+
+VDD 1 0 dc VDD
+VEXPOSE EXPOSE 0 dc 0 pulse(0 VDD EXPOSE_DLY TRF TRF EXPOSURETIME PERIOD)
+
+*M1 DEFINITION ************************************************************
+* Photodiode
+XPD1	1	N1	PhotoDiode	Ipd=750
+	
+* Expose trigger
+M1	N1 	EXPOSE 	N2	0 	NMOS 	L=LNswitch 	W=WNswitch
+		
+* Sampling Capacitor
+Cs	N2	0	3p
+
+VCS N2 0 dc 0
+
+*.plot V(VDD)
+
+****************************************************************************
+
+[dc]
+1
+VDD
+0
+1.8
+0.001
+[ana]
+1 0
+[end]
