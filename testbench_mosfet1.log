@@ -7,15 +7,15 @@
                  *                                           *
                  *********************************************
 
-	Date: Tue Oct 22 14:48:00 2019
-	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Fall 2019\Design of integrated circuits\Digital-Camera\testbench_design_mosfef1.cir
-	Analysis: DC Temperature Sweep
+	Date: Thu Oct 24 08:37:09 2019
+	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Fall 2019\Design of integrated circuits\Digital-Camera\testbench_mosfet1.cir
+	Analysis: DC Transfer Curves
 
 **************************  Circuit Description  **************************
 
      1:  Testbench for designing the <Mosfet 1> and also the capacitor <CS>
      2:  
-     3:  **** INCLUDES ****
+     3:  *INCLUDES
      4:  *include p18_cmos_models.inc
      5:  .param proc_delta = 0.95
      6:  .param vt_shift = 0.1
@@ -232,15 +232,16 @@
    217:  .plot V(OUT_SAMPLED1)
    218:  *end of: example_testbench.inc
    219:  
-   220:  **** DEFINE CIRCUIT ****
+   220:  *DEFINE CIRCUIT
    221:  .param Ipd = 750p
    222:  
-   223:  XPD VDD N1 PhotoDiode Ipd={Ipd}			! Photo diode
-   224:  M1 N1 EXPOSE N2 0 NMOS L=0.37u W=5.039u    	! Mosfet 1 
-   225:  CS 1 0 2pf  						! Capacitor
-   226:  
+   223:  *VDD 1 0 dc 1.8
+   224:  XPD 1 N1 PhotoDiode Ipd_1={Ipd}		! Photo diode
+   225:  M1 N1 EXPOSE N2 0 NMOS L=0.37u W=5.039u   ! Mosfet 1 
+   226:  CS N2 0 2pf  					! Capacitor
    227:  
-   228:  
+   228:  .plot V(VDD)
+   229:  .dc VDD 1.4 1.8 0.1
 
 ***************************  Model Parameters  ****************************
 
@@ -251,6 +252,10 @@
 
 **************************  Analysis Parameters  **************************
 
+	Source name #1 .. : VDD
+	Start value #1 .. : 1.4
+	End value #1 .... : 1.8
+	Increment value #1: 0.1
 
 
 
@@ -260,8 +265,8 @@
 
 *************************  Simulation Statistics  *************************
 
-	Total number of iterations...........: 0
-	Total analysis time (sec)............: 0
+	Total number of iterations...........: 33
+	Total analysis time (sec)............: 0.002
 	Time spent in device loading (sec)...: 0
 	Time spent in L-U decomposition (sec): 0
 	Time spent in matrix reordering (sec): 0
@@ -279,5 +284,4 @@ Warning: Ps = 0 is less than W for m1 in model nmos.
 Warning: Node erase has less than two connections
 Warning: Node nre_r1 has less than two connections
 Warning: Node nre_r2 has less than two connections
-Warning: Node n2 has less than two connections
 
