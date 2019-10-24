@@ -1,14 +1,14 @@
 [aimspice]
 [description]
-2133
+2149
 * This is a parametrized testbench for pixel circuit 
 
-.include p18_cmos_models.inc
-.include PhotoDiode.inc
+.include inc/p18_cmos_models.inc
+.include inc/PhotoDiode.inc
 
 .param Ipd_1 	  = 750p 				  ! Photodiode current, range [50 pA, 750 pA]
 .param VDD 		  = 1.8 				  ! Supply voltage
-.param EXPOSURETIME = 10m 				  ! Exposure time, range [2 ms, 30 ms]
+.param EXPOSURETIME = 2m 				  ! Exposure time, range [2 ms, 30 ms]
 
 .param TRF        = {EXPOSURETIME/100} 		  ! Risetime and falltime of EXPOSURE and ERASE signals
 .param PW         = {EXPOSURETIME} 			  ! Pulsewidth of EXPOSURE and ERASE signals
@@ -22,10 +22,10 @@
 
 *TRANSISTORS PARAMETERS - Random values for now
 * NMOS Switches 
-.param LNswitch = 0.36U
-.param WNswitch = 1.080U
+.param LNswitch = 0.37U
+.param WNswitch = 5.039U
 
-* NMOS Switches 
+* pMOS Switches 
 .param LPswitch = 0.36U
 .param WPswitch = 1.080U
 
@@ -52,10 +52,10 @@ XPD1	1	N1	PhotoDiode	Ipd=750
 M1	N1 	EXPOSE 	N2	0 	NMOS 	L=LNswitch 	W=WNswitch
 	
 *Erase trigger
-*M2	N2	ERASE		0	0	NMOS 	L=LNswitch 	W=WNswitch
+M2	N2	ERASE		0	0	NMOS 	L=LNswitch 	W=WNswitch
 	
 *Sampling Capacitor
-Cs	N2	0	3p
+Cs	N2	0	2p
 	
 *Readout circuit
 M3 	0 	N2 	N3 	1 	PMOS 	L=LPamp 	W=WPamp
@@ -66,7 +66,7 @@ CC1	OUT	0	3p
 ****************************************************************************
 
 ************************** PLOTS *******************************************
-.plot V(N2) V(EXPOSE)
+.plot V(N2) V(EXPOSE) V(ERASE) 
 
 
 

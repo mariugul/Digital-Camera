@@ -7,7 +7,7 @@
                  *                                           *
                  *********************************************
 
-	Date: Thu Oct 24 09:40:34 2019
+	Date: Thu Oct 24 14:28:30 2019
 	Circuit File: C:\Users\Mariu\Dropbox\NTNU\Fall 2019\Design of integrated circuits\Digital-Camera\Pixel_testbench.cir
 	Analysis: Transient
 
@@ -15,10 +15,10 @@
 
      1:  * This is a parametrized testbench for pixel circuit 
      2:  
-     3:  *include p18_cmos_models.inc
+     3:  *include inc/p18_cmos_models.inc
      4:  .param proc_delta = 0.95
      5:  .param vt_shift = 0.1
-     6:  *include p18_model_card.inc
+     6:  *include inc/p18_model_card.inc
      7:  * p18 model card
      8:  .MODEL NMOS NMOS  								
      9:  + VERSION	=	3.1						
@@ -98,9 +98,9 @@
     83:  + PUA	=	-7.63E-11	PUB	=	9.91E-22	PVSAT	=	5.00E+01
     84:  + PKETA	=	-6.41E-03	KF	=	1.29E-29	PETA0	=	7.31E-05
     85:  
-    86:  *end of: p18_model_card.inc
-    87:  *end of: p18_cmos_models.inc
-    88:  *include PhotoDiode.inc
+    86:  *end of: inc/p18_model_card.inc
+    87:  *end of: inc/p18_cmos_models.inc
+    88:  *include inc/PhotoDiode.inc
     89:  *PhotoDiode
     90:  
     91:  .subckt PhotoDiode  VDD N1_R1C1 
@@ -109,11 +109,11 @@
     94:  	.model dwell d cj0=1e-14 is=1e-12 m=0.5 bv=40
     95:  	Cd1 N1_R1C1 VDD 30f
     96:  .ends PhotoDiode
-    97:  *end of: PhotoDiode.inc
+    97:  *end of: inc/PhotoDiode.inc
     98:  
     99:  .param Ipd_1 	  = 750p 				  ! Photodiode current, range [50 pA, 750 pA]
    100:  .param VDD 		  = 1.8 				  ! Supply voltage
-   101:  .param EXPOSURETIME = 10m 				  ! Exposure time, range [2 ms, 30 ms]
+   101:  .param EXPOSURETIME = 2m 				  ! Exposure time, range [2 ms, 30 ms]
    102:  
    103:  .param TRF        = {EXPOSURETIME/100} 		  ! Risetime and falltime of EXPOSURE and ERASE signals
    104:  .param PW         = {EXPOSURETIME} 			  ! Pulsewidth of EXPOSURE and ERASE signals
@@ -127,10 +127,10 @@
    112:  
    113:  *TRANSISTORS PARAMETERS - Random values for now
    114:  * NMOS Switches 
-   115:  .param LNswitch = 0.36U
-   116:  .param WNswitch = 1.080U
+   115:  .param LNswitch = 0.37U
+   116:  .param WNswitch = 5.039U
    117:  
-   118:  * NMOS Switches 
+   118:  * pMOS Switches 
    119:  .param LPswitch = 0.36U
    120:  .param WPswitch = 1.080U
    121:  
@@ -157,10 +157,10 @@
    142:  M1	N1 	EXPOSE 	N2	0 	NMOS 	L=LNswitch 	W=WNswitch
    143:  	
    144:  *Erase trigger
-   145:  *M2	N2	ERASE		0	0	NMOS 	L=LNswitch 	W=WNswitch
+   145:  M2	N2	ERASE		0	0	NMOS 	L=LNswitch 	W=WNswitch
    146:  	
    147:  *Sampling Capacitor
-   148:  Cs	N2	0	3p
+   148:  Cs	N2	0	2p
    149:  	
    150:  *Readout circuit
    151:  M3 	0 	N2 	N3 	1 	PMOS 	L=LPamp 	W=WPamp
@@ -171,7 +171,7 @@
    156:  ****************************************************************************
    157:  
    158:  ************************** PLOTS *******************************************
-   159:  .plot V(N2) V(EXPOSE)
+   159:  .plot V(N2) V(EXPOSE) V(ERASE) 
    160:  
    161:  
    162:  
@@ -205,18 +205,18 @@
 
 *************************  Simulation Statistics  *************************
 
-	Total number of iterations.....................: 384
-	Number of iterations for transient analysis....: 362
-	Total number of timepoints.....................: 141
-	Number of timepoints accepted..................: 137
-	Number of timepoints rejected..................: 4
-	Total analysis time (sec)......................: 0.015
-	Transient analysis time (sec)..................: 0.015
-	Time spent in device loading (sec).............: 0.001
-	Time spent in L-U decomposition (sec)..........: 0
+	Total number of iterations.....................: 1549
+	Number of iterations for transient analysis....: 1524
+	Total number of timepoints.....................: 489
+	Number of timepoints accepted..................: 436
+	Number of timepoints rejected..................: 53
+	Total analysis time (sec)......................: 0.116
+	Transient analysis time (sec)..................: 0.114
+	Time spent in device loading (sec).............: 0.01
+	Time spent in L-U decomposition (sec)..........: 0.002
 	Time spent in matrix reordering (sec)..........: 0
 	Time spent in matrix solving (sec).............: 0
-	Time spent in transient L-U decomposition (sec): 0
+	Time spent in transient L-U decomposition (sec): 0.002
 	Time spent in transient matrix solving (sec)...: 0
 
 ***************************  Kernel Messages  *****************************
@@ -230,7 +230,6 @@ Warning: parameter xl not supported; value ignored
 Warning: parameter xw not supported; value ignored
 Warning: Pd = 0 is less than W for mc1 in model pmos.
 Warning: Ps = 0 is less than W for mc1 in model pmos.
-Warning: Pd = 0 is less than W for m1 in model nmos.
-Warning: Ps = 0 is less than W for m1 in model nmos.
-Warning: Node erase has less than two connections
+Warning: Pd = 0 is less than W for m2 in model nmos.
+Warning: Ps = 0 is less than W for m2 in model nmos.
 
