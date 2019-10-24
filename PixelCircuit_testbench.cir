@@ -1,10 +1,10 @@
 [aimspice]
 [description]
-2141
+2155
 * This is a parametrized testbench for pixel circuit 
 
-.include p18_cmos_models.inc
-.include PhotoDiode.inc
+.include ../inc/p18_cmos_models.inc
+.include ../inc/PhotoDiode.inc
 
 .param Ipd_1 	  = 750p 				  ! Photodiode current, range [50 pA, 750 pA]
 .param VDD 		  = 1.8 				  ! Supply voltage

@@ -1,8 +1,8 @@
 [aimspice]
 [description]
-610
+614
 *Pixel Array 
-.include pixel_circuit.cir
+.include inc/pixel_circuit.cir
 
 *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
 
