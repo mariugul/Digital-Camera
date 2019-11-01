@@ -1,6 +1,7 @@
 [aimspice]
 [description]
 2138
+2153
 * This is a parametrized testbench for pixel circuit 
 
 .include inc/p18_cmos_models.inc
@@ -15,7 +16,7 @@
 .param PERIOD     = {EXPOSURETIME*10} 	        ! Period for testbench sources
 .param FS = 1k;                   			  ! Sampling clock frequency 
 .param CLK_PERIOD = {1/FS} 				  ! Sampling clock period
-.param EXPOSE_DLY = {CLK_PERIOD} 			  ! Delay for EXPOSE signal
+.param EXPOSE_DLY = {CLK_PERIOD} 			  ! Delay for EXPOSE signalj m
 .param NRE_R1_DLY = {2*CLK_PERIOD + EXPOSURETIME} ! Delay for NRE_R1 signal
 .param ERASE_DLY  = {6*CLK_PERIOD + EXPOSURETIME} ! Delay for ERASE signal
 
@@ -24,6 +25,8 @@
 * NMOS Switches 
 .param LNswitch = 3U
 .param WNswitch = 3U
+.param LNswitch = 1.080u
+.param WNswitch = 1.080u
 
 * pMOS Switches 
 .param LPswitch = 0.36U
@@ -67,6 +70,7 @@ Cs	N2	0	2p
 
 ************************** PLOTS *******************************************
 .plot V(N2) V(EXPOSE)
+.plot V(N2) V(EXPOSE) V(ERASE)
 
 
 

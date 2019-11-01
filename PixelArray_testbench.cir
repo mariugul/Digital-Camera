@@ -1,23 +1,12 @@
-* This is a parametrized testbench for your pixel circuit array
+[aimspice]
+[description]
+2155
+* This is a parametrized testbench for pixel circuit 
 
-.include PixelArray.cir
+.include ../inc/p18_cmos_models.inc
+.include ../inc/PhotoDiode.inc
 
-* You should at least test your circuit with:
-*	- current of 50 pA and exposure time 30 ms
-*	- current of 750 pA and exposure time 2 ms
-
-* Instructions
-* Connect EXPOSE, ERASE, NRE_R1 and NRE_R2 at the right place
-* Run a transient simulation with length 60 ms
-* Make sure outputs of pixel circuits to ADC are called OUT1 and OUT2
-* Make plots of output voltages to ADC (here called OUT1 and OUT2)
-* The voltage across internal capacitor (any pixel) is also of interest (here called OUT_SAMPLED1)
-* You should also plot the control signals EXPOSE, NRE_R1, NRE_R2 and ERASE
-
-.param Ipd_1 	  = 50p 				  ! Photodiode current, range [50 pA, 750 pA]
-.param Ipd_2		  = 60p 				  ! Photodiode current, range [50 pA, 750 pA]
-.param Ipd_2		  = 70p 				  ! Photodiode current, range [50 pA, 750 pA]
-.param Ipd_2		  = 80p 				  ! Photodiode current, range [50 pA, 750 pA]
+.param Ipd_1 	  = 750p 				  ! Photodiode current, range [50 pA, 750 pA]
 .param VDD 		  = 1.8 				  ! Supply voltage
 .param EXPOSURETIME = 2m 				  ! Exposure time, range [2 ms, 30 ms]
 
@@ -28,37 +17,77 @@
 .param CLK_PERIOD = {1/FS} 				  ! Sampling clock period
 .param EXPOSE_DLY = {CLK_PERIOD} 			  ! Delay for EXPOSE signal
 .param NRE_R1_DLY = {2*CLK_PERIOD + EXPOSURETIME} ! Delay for NRE_R1 signal
-.param NRE_R2_DLY = {4*CLK_PERIOD + EXPOSURETIME} ! Delay for NRE_R2 signal
 .param ERASE_DLY  = {6*CLK_PERIOD + EXPOSURETIME} ! Delay for ERASE signal
+
+
+*TRANSISTORS PARAMETERS - Random values for now
+* NMOS Switches 
+.param LNswitch = 0.37U
+.param WNswitch = 5.039U
+
+* pMOS Switches 
+.param LPswitch = 0.36U
+.param WPswitch = 1.080U
+
+* Amplifiers 
+.param LPamp = 0.36U
+.param WPamp = 1.080U
+
+* Active loads 
+.param LPload = 0.36U
+.param WPload = 1.080U
+
 
 VDD 1 0 dc VDD
 VEXPOSE EXPOSE 0 dc 0 pulse(0 VDD EXPOSE_DLY TRF TRF EXPOSURETIME PERIOD)
 VERASE  ERASE  0 dc 0 pulse(0 VDD ERASE_DLY  TRF TRF CLK_PERIOD PERIOD)
-VNRE_R1 NRE_R1 0 dc 0 pulse(VDD 0 NRE_R1_DLY TRF TRF CLK_PERIOD PERIOD)
-VNRE_R2 NRE_R2 0 dc 0 pulse(VDD 0 NRE_R2_DLY TRF TRF CLK_PERIOD PERIOD)
-
-*TRANSISTORS PARAMETERS ****************
-* NMOS Switches - tune for low leakage -> high closed impedance
-*.param LNswitch = 2U
-*.param WNswitch = 2U
-
-* NMOS Switches - tune for low open impedance
-*.param LPswitch = 0.7U
-*.param WPswitch = 10U
-
-* Amplifiers - tune for linearity
-*.param LPamp = 0.7U
-*.param WPamp = 10U
-
-* Active loads - tune for linearity
-*.param LPload = 2U
-*.param WPload = 2U
-
-****************************************
-
-XArray 1 0 EXPOSE ERASE NRE_R1 NRE_R2 OUT1 OUT2 PIXELARRAY 
+VNRE NRE 0 dc 0 pulse(VDD 0 NRE_R1_DLY TRF TRF CLK_PERIOD PERIOD)
 
 
-.plot V(OUT1) V(OUT2) 					  ! signals going to ADC
-.plot V(EXPOSE) V(NRE_R1) V(NRE_R2) V(ERASE)
-.plot V(OUT_SAMPLED1)
+************************PIXEL DEFINITION **********************************
+*Photodiode
+XPD1	1	N1	PhotoDiode	Ipd=750
+	
+*Expose trigger
+M1	N1 	EXPOSE 	N2	0 	NMOS 	L=LNswitch 	W=WNswitch
+	
+*Erase trigger
+M2	N2	ERASE		0	0	NMOS 	L=LNswitch 	W=WNswitch
+	
+*Sampling Capacitor
+Cs	N2	0	2p
+	
+*Readout circuit
+M3 	0 	N2 	N3 	1 	PMOS 	L=LPamp 	W=WPamp
+M4 	N3 	NRE	OUT 	1 	PMOS 	L=LPswitch 	W=WPswitch
+
+MC1 	OUT	OUT	1	1 	PMOS 	L=LPload	W=WPload
+CC1	OUT	0	3p
+****************************************************************************
+
+************************** PLOTS *******************************************
+.plot V(N2) V(EXPOSE) V(ERASE) 
+
+
+
+
+
+
+
+
+
+[dc]
+1
+VDD
+0
+1.8
+0.1
+[tran]
+0.01m
+60m
+0
+X
+0
+[ana]
+4 0
+[end]
