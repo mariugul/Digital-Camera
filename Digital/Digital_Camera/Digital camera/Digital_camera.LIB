@@ -1,0 +1,91 @@
+timestamp=1573934825893
+
+[~A]
+LastVerilogToplevel=RE_Control_tb
+ModifyID=47
+Version=73
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/compile/FSM_ex_control.v=0*21346*22202
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/CTRL_ex_time.v=0*19750*20232
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/FSM_ex_control.v=0*3303*3883
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/FSM_ex_control.v_Timer_counter.v_CTRL_ex_time.v_Block diagram.v=0*8664*9836
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/FSM_ex_control.v_Timer_counter.v_CTRL_ex_time.v_Block_diagram.v=0*14836*15975
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v=0*1101*1584
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v_CTRL_ex_time.v_Block diagram.v_FSM_ex_control.v=0*11744*12867
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v_CTRL_ex_time.v_Block_diagram.v=0*17667*18629
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v_CTRL_ex_time.v_FSM_ex_control.v_RE_Control.v=0*24131*25636
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v_CTRL_ex_time.v_FSM_ex_control.v_RE_Control.v_RE_Control_TB.v=0*31963*33724
+
+[$root]
+A/$root=22|||1*55398
+BinI32/$root=3*14845
+SLP=3*14949
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|c73a565f2ade592f8ac1c68f484c9216d8bd3f277cb28668f5490169a864b3b5
+
+[Block]
+BinI32/Block=3*7203
+NSymbols/block=NSymbols/Block 40|0|2*9411
+R=.\src\Block_diagram.bde|22
+SLP=3*7573
+Version=10.2.3312.5682  (Windows)|0000001b789cd3f53752d02d33ca36c524015f1e0703|0be0d6f8c05665a0ed974fc5dbe6a42fe58be594c976d9ad5a761967e3564e56
+
+[Block_diagram]
+A/Block_diagram=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/compile/Block diagram.v|30|1*19634
+BinI32/Block_diagram=3*4420
+NSymbols/block_diagram=NSymbols/Block_diagram 40|0|2*8145
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/compile/Block diagram.v|30
+SLP=3*4798
+Version=10.2.3312.5682  (Windows)|0000001b789cd3f53752d02d33ca36c524015f1e0703|69834ebc2246ffea485338492f7c04c9d49b9002e2cd3f61b56264d53f1d51d07f6001c0182b874e83d3f5ec86ff9d2c
+
+[CTRL_ex_time]
+A/CTRL_ex_time=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/CTRL_ex_time.v|22|1*56961
+BinI32/CTRL_ex_time=3*15244
+NSymbols/ctrl_ex_time=NSymbols/CTRL_ex_time 40|0|2*0
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/CTRL_ex_time.v|22
+SLP=3*15355
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|7523f09ed7c29459b2cd08fcd169a1088e55b9384e2152326c8be3af1787cf8b6ff3e10fb2f3b2e403adc3348586fcff
+
+[FSM_ex_control]
+A/FSM_ex_control=23|.\src\FSM_ex_control.asf|10000|1*58072
+BinI32/FSM_ex_control=3*15465
+NSymbols/fsm_ex_control=NSymbols/FSM_ex_control 40|0|2*4503
+R=.\src\FSM_ex_control.asf|22
+SLP=3*16096
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb6968eb9683acfd249c9adf421454c89271
+
+[RE_Control]
+A/RE_Control=24|.\src\RE_Control.bde|10000|1*60616
+BinI32/RE_Control=3*16520
+R=.\src\RE_Control.bde|22
+SLP=3*16895
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|9f4ac8e3bb4099270aaccc6c82e0949f76c695d55ce5f654a0a982c9d358fd1210471f2f1be19d48469cdd8343de26dc
+
+[RE_Control_tb]
+A/RE_Control_tb=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/TestBench/RE_Control_TB.v|22|1*63408
+BinI32/RE_Control_tb=3*17060
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/TestBench/RE_Control_TB.v|22
+SLP=3*17855
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|79d0051e83b52f15abe0eb5a34127542e667acbb339b2a288db35771e3e402a2f01b495402943bfb2a1a7fc129f21d5d
+
+[Timer_counter]
+A/Timer_counter=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v|22|1*55788
+BinI32/Timer_counter=3*15017
+NSymbols/timer_counter=NSymbols/Timer_counter 40|0|2*2105
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v|22
+SLP=3*15129
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|aa52455802476909eaa1db5941f0ca8c94738f125c79b658c8fbb977669b102274fdc6079c7c23d62c3edc0b43006419
+
+[~MFT]
+0=10|0Digital_camera.mgf|33724|5382
+1=12|1Digital_camera.mgf|63408|53366
+2=0|2Digital_camera.mgf|9411|0
+3=24|3Digital_camera.mgf|17855|13796
+
+[~U]
+$root=12|0*30417|
+Block=12|0*17360||0x13
+Block_diagram=12|0*11205||0x13
+CTRL_ex_time=12|0*30878||0x3
+FSM_ex_control=12|0*31102||0x13
+RE_Control=12|0*31383||0x10
+RE_Control_tb=12|0*31721||0x10
+Timer_counter=12|0*30647||0x3

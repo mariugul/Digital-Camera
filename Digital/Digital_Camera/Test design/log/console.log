@@ -1,0 +1,307 @@
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (49, 12): Syntax error. Unexpected token: <=[O_LESSEQU]. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (65, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Warning: VCP2515 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (49, 22): Undefined module: Exp_Time was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (49, 11): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (65, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Warning: VCP2515 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (49, 21): Undefined module: Exp_Time was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 2 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (65, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (65, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (64, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (64, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (64, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (64, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (54, 13): Syntax error. Unexpected token: else[_ELSE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (58, 8): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (58, 8): Syntax error. Unexpected token: end[_END]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (58, 8): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (58, 8): Syntax error. Unexpected token: end[_END]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (56, 16): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (56, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (56, 16): Syntax error. Unexpected token: end[_END]. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (56, 16): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (56, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (56, 16): Syntax error. Unexpected token: end[_END]. Expected tokens: ''' , '(' , '{' , 'integer'' , 'real'' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): Syntax error. Unexpected token: end[_END]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): Syntax error. Unexpected token: end[_END]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 13): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 13): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 13): Syntax error. Unexpected token: end[_END]. Expected tokens: ':' , '(' , '.' , ';' , '=' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 1[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 13): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 13): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 13): Syntax error. Unexpected token: end[_END]. Expected tokens: ':' , '(' , '.' , ';' , '=' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 //sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/Timer_Counter.bde(Timer_Counter.v) : (57, 16): Syntax error. Unexpected token: end[_END]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v}
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: ttt test RE_Control_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve   -work Test_design {\\sambaad.stud.ntnu.no\mariugul\Documents\Di

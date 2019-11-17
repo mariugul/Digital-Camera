@@ -1,0 +1,184 @@
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/CTRL_ex_time.v|]
+CurrentLine=10
+CurrentColumn=22
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/TestBench/RE_Control_TB_runtest.do|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/TestBench/RE_Control_TB.v|]
+CurrentLine=41
+CurrentColumn=45
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAAB6AAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.BDE.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\RE_Control.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,1,2,28,127,
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\RE_Control.bde]
+FileTimeLow=30776534
+Status=Compiled
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Ctrl_Ex_Time.bde]
+FileTimeLow=30776515
+Status=Warning
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Timer_Counter.bde]
+FileTimeLow=30776522
+Status=Warning
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\FSM_Ex_Ctrl.asf]
+FileTimeLow=30776512
+Status=Compiled
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\FSM_Ex_Ctrl.v]
+FileTimeLow=30776512
+Status=Modified
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\projlib.cfg|]
+CurrentLine=0
+CurrentColumn=17
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.BDE.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\RE_Control.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,1,2,26,52,
+[CACHEDOC|Aldec.BDE.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Ctrl_Ex_Time.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,1,2,25,58,
+[CACHEDOC|Aldec.BDE.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Timer_Counter.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,1,2,50,50,
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/FSM_Ex_Ctrl.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Ctrl_Ex_Time.v]
+FileTimeLow=30776534
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\RE_Control.v]
+FileTimeLow=30776534
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v]
+FileTimeLow=30776534
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\ttt.bde]
+FileTimeLow=30776522
+Status=Compiled
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\tt.v]
+FileTimeLow=30776522
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\ttt.v]
+FileTimeLow=30776522
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\test.v]
+FileTimeLow=30776522
+Status=Modified
+[CACHEDOC|Aldec.BDE.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\ttt.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,1,2,50,50,
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\tt.v|]
+CurrentLine=0
+CurrentColumn=63
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/test.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Project.Generic.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\Test design.adf|]
+Path=
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Ctrl_Ex_Time.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Timer_Counter.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAAB6AAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAAB6AAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/Timer_counter.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////yABAABfAAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|Always_1|]
+CurrentLine=5
+CurrentColumn=9
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////9cAAAB6AAAAtwUAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\TestBench\RE_Control_TB.v]
+FileTimeLow=30776549
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\TestBench\RE_Control_TB_runtest.do]
+FileTimeLow=30776538
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Testbench.bde]
+FileTimeLow=30776549
+Status=Warning
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+Test_design=0
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/TestBench/RE_Control_TB.v|]
+CurrentLine=60
+CurrentColumn=32
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////9cAAAB6AAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.BDE.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Testbench.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,1,2,88,53,
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Testbench.v]
+FileTimeLow=30776549
+Status=Modified
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Testbench.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////9cAAAB6AAAAAAYAAHUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[Gui config]
+RunFor=100 ns

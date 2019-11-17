@@ -1,6 +1,6 @@
 [aimspice]
 [description]
-596
+595
 *Pixel Circuit 
 
 *<name> <drain> <gate> <source> <bulk> <type> <L>  <W>
@@ -13,7 +13,7 @@
 	XPD1	VDD	N1	PhotoDiode	Ipd={Ipd}
 	
 	*Expose trigger
-	MN1 N1 EXPOSE N2 VSS NMOS L=LNswitch W=WNswitch   	!Switch 
+	MN1 N1 EXPOSE N2 VSS NMOS L=LNswitch W=WNswitch   !Switch 
 	*Erase trigger
 	MN2 N2 ERASE VSS VSS NMOS L=LNswitch W=WNswitch   !Switch
 

@@ -1,0 +1,5 @@
+MESSAGE "Loading State Diagram data..."
+MESSAGE "Generating \\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\FSM_Ex_Ctrl.v from \\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\FSM_Ex_Ctrl.asf"
+MESSAGE "Synthesis attributes will be generated for Synopsys FPGA Express"
+MESSAGE "Generating interface file..."
+SUCCESS "HDL code generation successful. 0 error(s), 0 warning(s)"

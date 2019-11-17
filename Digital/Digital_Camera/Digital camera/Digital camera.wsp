@@ -1,0 +1,76 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+Digital_camera=0
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\State Machine.asf]
+FileTimeLow=30775660
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\State Machine Test.asf]
+FileTimeLow=30775660
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\State_Machine.asf]
+FileTimeLow=30775684
+Status=Compiled
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\compile\State_Machine.v]
+FileTimeLow=30775684
+Status=Modified
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\compile\State_Machine_Generated.v|]
+CurrentLine=89
+CurrentColumn=14
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////8sAAAB6AAAAAAYAAJgCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA=
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/compile/State_Machine.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo=LAAAAAAAAAADAAAA/////////////////////8sAAAB6AAAAAAYAAJgCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA=
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\CTRL_ex_time.v]
+FileTimeLow=30776285
+Status=Modified
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\Timer_counter.v]
+FileTimeLow=30776285
+Status=Modified
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\CTRL_ex_time.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////+MAAABnAAAA/wIAAJcCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[COMPILESTATUS|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\imer_counter.v]
+FileTimeLow=30776279
+Status=Modified
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\imer_counter.v|]
+CurrentLine=34
+CurrentColumn=36
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////+IAAABfAAAAAAYAAJgCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\Timer_counter.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////+IAAABfAAAAAAYAAJgCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/log/console.log|]
+CurrentLine=13
+CurrentColumn=28
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////+IAAABfAAAAAAYAACECAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+[CACHEDOC|Aldec.Project.Generic.7|\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\Digital camera.adf|]
+Path=
+[Gui config]
+RunFor=100 ns

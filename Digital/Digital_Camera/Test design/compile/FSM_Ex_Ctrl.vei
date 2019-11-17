@@ -1,0 +1,27 @@
+module FSM_Ex_Ctrl (ADC, Clk, Erase, Expose, NRE_1, NRE_2, Ovf4, Ovf5, Reset, Start_Timer, Take_Pic);
+input      	Clk;
+input      	Ovf4;
+input      	Ovf5;
+input      	Reset;
+input      	Take_Pic;
+output     	ADC;
+output     	Erase;
+output     	Expose;
+output     	NRE_1;
+output     	NRE_2;
+output     	Start_Timer;
+endmodule
+
+
+FSM_Ex_Ctrl instance_name
+( .ADC(),
+ .Clk(),
+ .Erase(),
+ .Expose(),
+ .NRE_1(),
+ .NRE_2(),
+ .Ovf4(),
+ .Ovf5(),
+ .Reset(),
+ .Start_Timer(),
+ .Take_Pic());

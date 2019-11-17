@@ -1,0 +1,17 @@
+[Version]
+Version=10.2
+[Designs]
+digital camera=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\Digital camera.adf
+test design=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\Test design.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+digital camera=0
+test design=1
+jjj=0
+[Settings]
+Active=test design

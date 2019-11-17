@@ -1,0 +1,46 @@
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+RE_Control_tb RE_Control_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 35 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5784 kB (elbread=1023 elab2=4615 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location \\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\wave.asdb
+#  21.30, lørdag 16. november 2019
+#  Simulation has been initialized
+#  Selected Top-Level: RE_Control_tb (RE_Control_tb)
+# add wave -noreg {/RE_Control_tb/ADC}
+# add wave -noreg {/RE_Control_tb/Erase}
+# add wave -noreg {/RE_Control_tb/Expose}
+# add wave -noreg {/RE_Control_tb/NRE_1}
+# add wave -noreg {/RE_Control_tb/NRE_2}
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to '//sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/src/wave.asdb'.
+run
+# KERNEL: 0 ps x x x x x x x x x x 
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped
+# Design: 21.45, lørdag 16. november 2019
+# Design: Opening design "\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\Test design.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "Test design" has been set as active.

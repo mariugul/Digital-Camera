@@ -1,0 +1,17 @@
+91
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 ".\src\Ctrl_Ex_Time.bde" 0 Ctrl_Ex_Time
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Ctrl_Ex_Time.v" 30 Ctrl_Ex_Time
+~M 3 ".\src\FSM_Ex_Ctrl.asf" 0 FSM_Ex_Ctrl
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/FSM_Ex_Ctrl.v" 23 FSM_Ex_Ctrl
+~M 1 ".\src\RE_Control.bde" 0 RE_Control
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v" 30 RE_Control
+~M 3 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/TestBench/RE_Control_TB.v" 22 RE_Control_tb
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/TestBench/RE_Control_TB.v" 22 RE_Control_tb
+~M 1 ".\src\Timer_Counter.bde" 0 Timer_Counter
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Timer_Counter.v" 30 Timer_Counter
+~M 3 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/test.v" 25 test
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/test.v" 25 test
+~M 3 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/ttt.v" 30 ttt
+~A 1 "./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/ttt.v" 30 ttt

@@ -1,0 +1,46 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=jjj
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=0
+[Library]
+jjj=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\jjj\jjj.LIB
+[$LibMap$]
+jjj=.
+[SpecTracer]
+WindowVisible=0
+[Folders]
+Name3=Makefiles
+Directory3=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\jjj\
+Extension3=mak
+Name4=Memory
+Directory4=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\jjj\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\jjj\
+Extension5=dll
+Name6=PDF
+Directory6=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\jjj\
+Extension6=pdf
+Name7=HTML
+Directory7=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\jjj\
+Extension7=

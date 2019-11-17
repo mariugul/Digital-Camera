@@ -1,0 +1,101 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Test_design
+
+[Library]
+Test_design=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\Test_design.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Test_design=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[Folders]
+Name3=Makefiles
+Directory3=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\
+Extension3=mak
+Name4=Memory
+Directory4=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\
+Extension5=dll
+Name6=PDF
+Directory6=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\
+Extension6=pdf
+Name7=HTML
+Directory7=\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\
+Extension7=
+
+[file_out:/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\RE_Control.bde]
+/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\RE_Control.v=-1
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+Readout Control=1
+Readout Control\Readout Control Components=1
+Testbench=1
+
+[file_out:Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\FSM_Ex_Ctrl.asf]
+Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\FSM_Ex_Ctrl.v=-1
+
+[file_out:Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Ctrl_Ex_Time.bde]
+Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Ctrl_Ex_Time.v=-1
+
+
+[file_out:Readout Control/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\RE_Control.bde]
+Readout Control/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\RE_Control.v=-1
+
+[Files]
+Readout Control/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\RE_Control.bde=-1
+Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\FSM_Ex_Ctrl.asf=-1
+Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Timer_Counter.bde=-1
+Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Ctrl_Ex_Time.bde=-1
+Testbench/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\TestBench\RE_Control_TB.v=-1
+Testbench/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\TestBench\RE_Control_TB_runtest.do=-1
+
+[Files.Data]
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\RE_Control.bde=Block Diagram
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\FSM_Ex_Ctrl.asf=State Diagram
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Timer_Counter.bde=Block Diagram
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Ctrl_Ex_Time.bde=Block Diagram
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\TestBench\RE_Control_TB.v=Verilog Test Bench
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\TestBench\RE_Control_TB_runtest.do=Macro
+
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v=Verilog Source Code
+\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Ctrl_Ex_Time.v=Verilog Source Code
+[file_out:Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\src\Timer_Counter.bde]
+Readout Control\Readout Control Components/\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Test design\compile\Timer_Counter.v=-1

@@ -1,0 +1,7 @@
+MESSAGE "Loading State Diagram data..."
+MESSAGE "Generating \\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\compile\FSM_ex_ctrl.v from \\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\FSM_ex_ctrl.asf"
+FSM2VHDL_ERROR FSM2HDL_3002 "No states in machine 'Sreg0'" "\\sambaad.stud.ntnu.no\mariugul\Documents\Digital_Camera\Digital camera\src\FSM_ex_ctrl.asf" 5
+MESSAGE "Synthesis attributes will be generated for Synopsys FPGA Express"
+MESSAGE "HDL code generation completed. 1 error(s), 0 warning(s)"
+MESSAGE "Double-click on error/warning line to see the source of error/warning."
+MESSAGE "Serious errors detected during compilation. HDL file has not been generated."

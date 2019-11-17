@@ -1,0 +1,27 @@
+Active-HDL 10.2.3312.5682  2019-11-17 02:33:50
+
+Elaboration top modules:
+Verilog Module                RE_Control_tb
+
+
+----------------------------------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------
+RE_Control_tb           | test_design |      | 10.2.3312.5682  (Windows) | +force_celldefine -multiplatform -O2 -v2k5
+RE_Control              | test_design |      | 10.2.3312.5682  (Windows) | -O2 -v2k5 -v2k5 -v2k5 -v2k5
+Timer_Counter           | test_design |      | 10.2.3312.5682  (Windows) | -O2 -v2k5 -v2k5 -v2k5 -v2k5
+Ctrl_Ex_Time            | test_design |      | 10.2.3312.5682  (Windows) | -O2 -v2k5 -v2k5 -v2k5 -v2k5
+FSM_Ex_Ctrl             | test_design |      | 10.2.3312.5682  (Windows) | -O2 -v2k5 -v2k5 -v2k5 -v2k5
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------------------------------------------
+test_design             | None
+----------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+RE_Control_tb RE_Control_tb
+
+
+The performance of simulation is reduced. Version EDU Edition

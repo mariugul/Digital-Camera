@@ -1,0 +1,90 @@
+timestamp=1573965180212
+
+[~A]
+LastVerilogToplevel=RE_Control_tb
+ModifyID=91
+Version=73
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Ctrl_Ex_Time.v=0*87102*87889
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/FSM_Ex_Ctrl.v=0*0*818
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v=0*79442*80355
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v_FSM_Ex_Ctrl.v_Timer_Counter.v_Ctrl_Ex_Time.v=0*12152*13751
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v_FSM_Ex_Ctrl.v_Timer_Counter.v_Ctrl_Ex_Time.v_RE_Control_TB.v=0*46366*48461
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v_ttt.v_tt.v_FSM_Ex_Ctrl.v_Timer_Counter.v_Ctrl_Ex_Time.v=0*2812*4278
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/RE_Control.v_ttt.v_tt.v_test.v_FSM_Ex_Ctrl.v_Timer_Counter.v_Ctrl_Ex_Time.v=0*5016*6569
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/Timer_Counter.v=0*111204*111864
+\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/TestBench/RE_Control_TB.v=0*14839*15681
+
+[$root]
+A/$root=22|||1*155037
+BinI32/$root=3*82601
+SLP=3*82705
+Version=10.2.3312.5682  (Windows)|00000009789cd3f53752d02d33ca3605000a8e0244|c73a565f2ade592f8ac1c68f484c9216133b32b21f863384a5905ac8ed587c60
+
+[Ctrl_Ex_Time]
+A/Ctrl_Ex_Time=24|.\src\Ctrl_Ex_Time.bde|10000|1*127574
+BinI32/Ctrl_Ex_Time=3*68192
+NSymbols/ctrl_ex_time=NSymbols/Ctrl_Ex_Time 40|0|2*16920
+R=.\src\Ctrl_Ex_Time.bde|0
+SLP=3*69166
+Version=10.2.3312.5682  (Windows)|00000009789cd3f53752d02d33ca3605000a8e0244|9fbc7710684961715c4055928898e88be3cb4e4bae36131dcdcdd1ee7b7fd58f890a606385a13016e83219bbd46f1eb5
+
+[FSM_Ex_Ctrl]
+A/FSM_Ex_Ctrl=23|.\src\FSM_Ex_Ctrl.asf|10000|1*74586
+BinI32/FSM_Ex_Ctrl=3*35792
+NSymbols/fsm_ex_ctrl=NSymbols/FSM_Ex_Ctrl 40|0|2*9098
+R=.\src\FSM_Ex_Ctrl.asf|0
+SLP=3*36423
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|57dcd11cb2d6756c15168a88c9dff0ee87bef973d5d674903e8f9314d52a69f92fa965e199cf85f18b693f22a170f520
+
+[RE_Control]
+A/RE_Control=24|.\src\RE_Control.bde|10000|1*117185
+BinI32/RE_Control=3*62602
+NSymbols/re_control=NSymbols/RE_Control 40|0|2*22891
+R=.\src\RE_Control.bde|0
+SLP=3*62856
+Version=10.2.3312.5682  (Windows)|00000009789cd3f53752d02d33ca3605000a8e0244|9f4ac8e3bb4099270aaccc6c82e0949f76c695d55ce5f654a0a982c9d358fd12e944b1d36a30514ddd51aa397aa2c155
+
+[RE_Control_tb]
+A/RE_Control_tb=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/TestBench/RE_Control_TB.v|22|1*76703
+BinI32/RE_Control_tb=3*36843
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/TestBench/RE_Control_TB.v|22
+SLP=3*38284
+Version=10.2.3312.5682  (Windows)|00000021789cd3f53752d02d33ca36c54502008e4a0898|79d0051e83b52f15abe0eb5a34127542e667acbb339b2a288db35771e3e402a2cb8ec034b87dced2fe06c7aeab14e711
+
+[Timer_Counter]
+A/Timer_Counter=24|.\src\Timer_Counter.bde|10000|1*155427
+BinI32/Timer_Counter=3*82773
+NSymbols/timer_counter=NSymbols/Timer_Counter 40|0|2*20121
+R=.\src\Timer_Counter.bde|0
+SLP=3*83372
+Version=10.2.3312.5682  (Windows)|00000009789cd3f53752d02d33ca3605000a8e0244|5fd21c4672622dc1d3dc11a9e55abb8e58b9e96167813f450325fa45d27785bd9e8ee83e5052e2fa4719d5fcfa488fe7
+
+[test]
+A/test=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/test.v|25|1*6899
+BinI32/test=3*2286
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/src/test.v|25
+SLP=3*2389
+Version=10.2.3312.5682  (Windows)|0000002d789cd3f53752d02d33ca3625860400092b0bc2|e1f76c805e2c0a9a3d36a8be8882f206282c293c32717bc951dc56b2688f562e
+
+[ttt]
+A/ttt=22|./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/ttt.v|30|1*7790
+BinI32/ttt=3*2477
+R=./../../../../../../sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Test design/compile/ttt.v|30
+SLP=3*2579
+Version=10.2.3312.5682  (Windows)|0000002d789cd3f53752d02d33ca3625860400092b0bc2|ea33bdf936deab37131ac08a049f6364b8e34a4364dc2bc6c46d0b43c1a2846b
+
+[~MFT]
+0=6|0Test_design.mgf|111864|66610
+1=4|1Test_design.mgf|155427|144026
+2=0|2Test_design.mgf|22891|12242
+3=8|3Test_design.mgf|83372|77278
+
+[~U]
+$root=12|0*110753|
+Ctrl_Ex_Time=12|0*86843||0x3
+FSM_Ex_Ctrl=12|0*45887||0x13
+RE_Control=12|0*79142||0x3
+RE_Control_tb=12|0*46165||0x10
+Timer_Counter=12|0*110967||0x3
+test=12|0*10570||0x10
+ttt=12|0*10748||0x10

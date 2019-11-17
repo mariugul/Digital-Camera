@@ -1,0 +1,27 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 7
+UPDATEPROGRESS 14
+UPDATEPROGRESS 21
+UPDATEPROGRESS 28
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 45
+WARNING VCP2597 "Some unconnected ports remain at instance: U5. Module FSM_ex_control has unconnected  port(s) : Timer_start." "\\sambaad.stud.ntnu.no/mariugul/Documents/Digital_Camera/Digital camera/compile/RE_Control.v" 68  1
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 83
+UPDATEPROGRESS 86
+UPDATEPROGRESS 90
+UPDATEPROGRESS 93
+UPDATEPROGRESS 96
+UPDATEPROGRESS 100
+MESSAGE "Unit top modules: RE_Control_tb."
+MESSAGE "$root top modules: Block_diagram Block RE_Control_tb."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time: 0[s]."
+MESSAGE "done"
